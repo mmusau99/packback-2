@@ -5,8 +5,22 @@
 	<title></title>
 	<meta charset="UTF-8">
 </head>
-<body>
+<body id="demo-body">
 <div class='logo'>  <a href=<%=root_path%>><%= image_tag "Logo.svg",  alt:"Packback Logo"%></a> </div>
-<div> </div>
+<div class= "demo-forms"><%= form_for :user, :html => {:class => 'form-group'} do |f| %>
+  <%= f.label :email, 'EMAIL ADDRESS'%>:
+  <%= f.text_field :email %><br />
+
+  <%= f.label :full_name, 'YOUR FULL NAME' %>:
+  <%= f.text_field :full_name %><br />
+
+  <%= f.label :phone_number, 'YOUR PHONE NUMBER' %>:
+  <%= f.text_field :phone_number %><br />
+
+  <%= f.label :course, 'SUBJECT OF YOUR COURSE' %>:
+  <%= f.text_field :full_name %><br />
+
+  <%= f.submit 'Save & Request a Demo', :class => 'btn btn-primary'  %>
+<% end %> </div>
 </body>
 </html>
