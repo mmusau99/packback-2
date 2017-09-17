@@ -42,8 +42,10 @@ body{
 	
 }
 #header2{
-	font-size: 3vw;
+	font-size: 2vw;
 	font-weight:bold;
+	width:75%;
+	padding-left: 3%;
 }
 
 #csbody{
@@ -78,7 +80,9 @@ body{
 	background-color: #f2f3f6;
 	color: #707781;
   font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-  display: inline;
+
+  width:100%;
+  padding-bottom: 15%;
 
 }
 .mirror-header{
@@ -101,7 +105,41 @@ body{
 	margin:0;
 	padding:0;
 }
-.mirror-paragraph{
+#stats{
+	background-color: #ffffff;
+	color: #707781;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  font-weight:bold;
+  padding: 0px;
+  margin: -15px;
+
+
+}
+
+#numbers{
+	font-size: 3vw;
+	word-spacing: 73px;
+
+}
+#QandR {
+	font-size: 1.3vw;
+	word-spacing: 17px;
+
+
+
+}
+#footer{
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	font-size: 2vw;
+	background-color: #1b6d91;
+	color: white;
+	padding: 0px;
+  margin: 0px;
+  height:200px;
+  text-align: center;
+  font-weight:bold;
 
 
 }
