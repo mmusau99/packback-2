@@ -43,6 +43,7 @@ body{
 	padding-left: 5%;
   display: inherit;
   padding-bottom: 2%;
+  padding-left: 10%;
 }
 
 
@@ -58,7 +59,8 @@ body{
 	color: #4193b1;
 	font-size: 2.5vw;
 	font-weight:bold;
-	width:78%;
+	width:80%;
+	padding-left: 5%;
 
 	margin: 0;
 }
@@ -70,7 +72,7 @@ body{
 
 }
 .mirror-header{
-	font-size: 2vw;
+	font-size: 1.9vw;
 	font-weight:bold;
 
 }
@@ -81,5 +83,15 @@ body{
 #mirror2{
 	float:right;
 	width:50%;
+
+}
+.mirror-author{
+	font-size: 1.9vw;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.mirror-paragraph{
+
 
 }
