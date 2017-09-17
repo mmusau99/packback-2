@@ -1,18 +1,19 @@
 // Place all the styles related to the packback controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	background-color: #f2f3f6;
+}
 #logo {
 	background-color: #1c516a;
-	display: flex;
-  flex-direction: column;
+
 }
 #logo img{
 	width: 25%;
 }
 #Body{
 	background-color: #1b6d91;
-	display: flex;
-  flex-direction: column;
+
 }
 #Body2{
 	background-color: #f2f3f6;
@@ -20,13 +21,65 @@
   flex-direction: column;
   color: #707781;
   font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  text-align: center;
+
 }
 #header{
 	font-size: 5vw;
 	padding:0;
 	margin: 0;
+	font-weight:bold;
 	
 }
 #header2{
-font-size: 3vw;
+	font-size: 3vw;
+	font-weight:bold;
+}
+
+#csbody{
+	font-size: 2vw;
+	width:78%;
+	text-align: left;
+	padding-left: 5%;
+  display: inherit;
+  padding-bottom: 2%;
+}
+
+
+#csbody img {
+
+	margin:0;
+	padding:0;
+	
+	float: right;
+	
+}
+.blue-header{
+	color: #4193b1;
+	font-size: 2.5vw;
+	font-weight:bold;
+	width:78%;
+
+	margin: 0;
+}
+#mirror-panel{
+	background-color: #f2f3f6;
+	color: #707781;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  display: inline;
+
+}
+.mirror-header{
+	font-size: 2vw;
+	font-weight:bold;
+
+}
+#mirror{
+	float:left;
+	width:50%;
+}
+#mirror2{
+	float:right;
+	width:50%;
+
 }
