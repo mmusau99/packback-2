@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div id='logo'> <%= image_tag "Logo.svg",  alt:"Packback Logo"%> </div>
+<div class='logo'> <a href=<%=root_path%>><%= image_tag "Logo.svg",  alt:"Packback Logo"%></a> </div>
 <div id="case-study">
 Packback Case Study
 </div>
@@ -79,12 +79,13 @@ Packback Case Study
 	<p id="s-header">Interested in learning how Packback Questions can support
 	<br>
 measurable curiosity and improved engagement in your class?</p><br>
-<form  action=<%=new_packback_path%> id="s-header-form" method="get">
+<form  action=<%=packback_new_path%> id="s-header-form" method="get">
   <div class="form-inline">
     <label for="exampleInputEmail1"></label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please Enter your email">
     <button type="submit" class="btn btn-primary">Request a Demo</button>
     </div>
+  </form>
 <footer id="footer">
 	
 </footer>
