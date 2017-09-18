@@ -4,26 +4,41 @@
 
 	<title></title>
 	<meta charset="UTF-8">
+
+
 </head>
 <body id="demo-body">
-<div class='logo'>  <a href=<%=root_path%>><%= image_tag "Logo.svg",  alt:"Packback Logo"%></a> </div>
-<div class= "demo-forms"><%= form_for :user, :html => {:class => 'form-group'} do |f| %>
-  <%= f.label :email, 'EMAIL ADDRESS'%>:
-  <%= f.text_field :email %><br />
 
-  <%= f.label :full_name, 'YOUR FULL NAME' %>:
-  <%= f.text_field :full_name %><br />
+	<div class='logo'>  <a href=<%=root_path%>><%= image_tag "Logo.svg",  alt:"Packback Logo"%></a>
+	</div>
+	 <h1 id="demo-header">Tell us a little bit about your course</h1>
+	 <div id="demo-description">
+	 <p>To deliever the most helpful and specific demonstration<br> of our
+			platform for your specific needs, please tell us a little bit more<br>
+			information about you, and your class size and subject.</p>
+	 </div>
+	<%= form_for :user, :html => {:id => 'demo-forms'} do |f| %>
+	<div class='form-group'>
+	  <%= f.label :email, 'EMAIL ADDRESS'%><br>
+	  <%= f.text_field :email, { class: 'demo-fields'} %><br />
 
-  <%= f.label :phone_number, 'YOUR PHONE NUMBER' %>:
-  <%= f.text_field :phone_number %><br />
+	  <%= f.label :full_name, 'YOUR FULL NAME' %><br>
+	  <%= f.text_field :full_name, { class: 'demo-fields'}%><br />
 
-  <%= f.label :course, 'SUBJECT OF YOUR COURSE' %>:
-  <%= f.text_field :course %><br />
+	  <%= f.label :phone_number, 'YOUR PHONE NUMBER' %><br>
+	  <%= f.text_field :phone_number, { class: 'demo-fields'} %><br />
 
-  <%= f.label :course_size, 'COURSE SIZE' %>:
-  <%= f.text_field :course_size%><br />
+	  <%= f.label :course, 'SUBJECT OF YOUR COURSE' %><br>
+	  <%= f.text_field :course, { class: 'demo-fields'} %><br />
 
-  <%= f.submit 'Save & Request a Demo', :class => 'btn btn-primary'  %>
-<% end %> </div>
+	  <%= f.label :course_size, 'COURSE SIZE' %><br>
+	  <%= f.text_field :course_size, { class: 'demo-fields'}%><br />
+
+	  <%= f.submit 'Save & Request a Demo', :class => 'btn btn-primary'  %>
+	  </div>
+	<% end %> 
 </body>
+<footer id="demo-footer">
+	<p>Packback, INC. 601 South LaSalle Street Suite 650, Chicago Illinois, 60605</p>
+</footer>
 </html>

@@ -165,3 +165,54 @@ body{
 
 	background-color: #f2f3f6;
 }
+
+.footer{
+	background-color: #5d646e;
+	font-size:1.2vw;
+}
+
+#demo-footer{
+	background-color: #5d646e;
+	font-size:1.2vw;
+	color: white;
+
+}
+#demo-forms{
+	width:45%;
+	margin: 0 auto;
+	display: block;
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	color: #707781;
+
+	
+}
+#demo-header{
+	font-size: 3.5vw;
+	padding:0;
+	margin: 0;
+	font-weight:bold;
+	color: #707781;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  text-align: center;
+
+}
+#demo-description{
+	padding-top: 5%;
+	width:45%;
+	margin: 0 auto;
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+
+}
+.demo-fields{
+	width: 75%;
+	border-radius:5px;
+	height: 34px;
+	border-color: white;
+	margin-bottom: 10%;
+
+
+}
+.btn.btn-primary{
+	background-color: #1b6d91;
+	width:45%;
+}
